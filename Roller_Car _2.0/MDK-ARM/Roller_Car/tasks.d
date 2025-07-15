@@ -1,0 +1,16 @@
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+roller_car\tasks.o: D:\app\KeilC51\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+roller_car\tasks.o: D:\app\KeilC51\MDK\ARM\ARMCC\Bin\..\include\string.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+roller_car\tasks.o: D:\app\KeilC51\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+roller_car\tasks.o: D:\app\KeilC51\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+roller_car\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+roller_car\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h

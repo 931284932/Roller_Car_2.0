@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 562238533@QQ.com, 1, LIC=47GU5-GZNBN-635MB-2GGAL-QK6DQ-XPB0B
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\app\KeilC51\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\56223\Desktop\Roller_Car\Code\Roller_Car _2.0\MDK-ARM\Roller_Car_2.0.uvprojx
+Project File Date:  07/14/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\app\KeilC51\MDK\ARM\ARMCC\Bin'
+Build target 'Roller_Car_2.0'
+compiling main.c...
+compiling mytask.c...
+..\Core\Src\mytask.c(380): warning:  #68-D: integer conversion resulted in a change of sign
+  				TMC5160_CS3_Move((-1)*motor_pra.motor3[1]);
+..\Core\Src\mytask.c(383): warning:  #68-D: integer conversion resulted in a change of sign
+  					if(SPI1_CS3_ReadData(0x21)==(-1)*motor_pra.motor3[1])
+..\Core\Src\mytask.c(497): warning:  #68-D: integer conversion resulted in a change of sign
+  				TMC5160_CS2_Move((-1)*motor_pra.motor2[0]);
+..\Core\Src\mytask.c(500): warning:  #68-D: integer conversion resulted in a change of sign
+  					if((SPI1_CS2_ReadData(0x21)==(-1)*motor_pra.motor2[0] || in(1)) && (in(5)||SPI1_CS5_ReadData(0x21)==motor_pra.motor5[0]))
+..\Core\Src\mytask.c(502): warning:  #68-D: integer conversion resulted in a change of sign
+  					if(SPI1_CS2_ReadData(0x21)==(-1)*motor_pra.motor2[0] || in(1))
+..\Core\Src\mytask.c(718): warning:  #111-D: statement is unreachable
+  				out(3,0);//Î´¸Ä
+..\Core\Src\mytask.c(324): warning:  #177-D: variable "t1"  was declared but never referenced
+  	static uint32_t t1,t2,t3,t4,t5;
+..\Core\Src\mytask.c(324): warning:  #177-D: variable "t2"  was declared but never referenced
+  	static uint32_t t1,t2,t3,t4,t5;
+..\Core\Src\mytask.c(324): warning:  #177-D: variable "t3"  was declared but never referenced
+  	static uint32_t t1,t2,t3,t4,t5;
+..\Core\Src\mytask.c(324): warning:  #177-D: variable "t4"  was declared but never referenced
+  	static uint32_t t1,t2,t3,t4,t5;
+..\Core\Src\mytask.c(324): warning:  #177-D: variable "t5"  was declared but never referenced
+  	static uint32_t t1,t2,t3,t4,t5;
+..\Core\Src\mytask.c(813): warning:  #68-D: integer conversion resulted in a change of sign
+  		TMC5160_CS1_Move(motor_debug.motor1[0]?motor_debug.motor1[1]:(-1)*motor_debug.motor1[1]);
+..\Core\Src\mytask.c(817): warning:  #68-D: integer conversion resulted in a change of sign
+  			if(SPI1_CS1_ReadData(0x21)==(motor_debug.motor1[0]?motor_debug.motor1[1]:(-1)*motor_debug.motor1[1]))
+..\Core\Src\mytask.c(793): warning:  #177-D: variable "t"  was declared but never referenced
+  	static uint32_t t;
+..\Core\Src\mytask.c(860): warning:  #68-D: integer conversion resulted in a change of sign
+  		TMC5160_CS2_Move(motor_debug.motor2[0]?motor_debug.motor2[1]:(-1)*motor_debug.motor2[1]);
+..\Core\Src\mytask.c(864): warning:  #68-D: integer conversion resulted in a change of sign
+  			if(SPI1_CS2_ReadData(0x21)==(motor_debug.motor2[0]?motor_debug.motor2[1]:(-1)*motor_debug.motor2[1]))
+..\Core\Src\mytask.c(827): warning:  #177-D: variable "t"  was declared but never referenced
+  	static uint32_t t;
+..\Core\Src\mytask.c(900): warning:  #68-D: integer conversion resulted in a change of sign
+  		TMC5160_CS3_Move(motor_debug.motor3[0]?motor_debug.motor3[1]:(-1)*motor_debug.motor3[1]);
+..\Core\Src\mytask.c(904): warning:  #68-D: integer conversion resulted in a change of sign
+  			if(SPI1_CS3_ReadData(0x21)==(motor_debug.motor3[0]?motor_debug.motor3[1]:(-1)*motor_debug.motor3[1]))
+..\Core\Src\mytask.c(874): warning:  #177-D: variable "t"  was declared but never referenced
+  	static uint32_t t;
+..\Core\Src\mytask.c(939): warning:  #68-D: integer conversion resulted in a change of sign
+  		TMC5160_CS4_Move(motor_debug.motor4[0]?motor_debug.motor4[1]:(-1)*motor_debug.motor4[1]);
+..\Core\Src\mytask.c(943): warning:  #68-D: integer conversion resulted in a change of sign
+  			if(SPI1_CS4_ReadData(0x21)==(motor_debug.motor4[0]?motor_debug.motor4[1]:(-1)*motor_debug.motor4[1]))
+..\Core\Src\mytask.c(914): warning:  #177-D: variable "t"  was declared but never referenced
+  	static uint32_t t;
+..\Core\Src\mytask.c(984): warning:  #68-D: integer conversion resulted in a change of sign
+  		TMC5160_CS5_Move(motor_debug.motor5[0]?motor_debug.motor5[1]:(-1)*motor_debug.motor5[1]);
+..\Core\Src\mytask.c(988): warning:  #68-D: integer conversion resulted in a change of sign
+  			if(SPI1_CS5_ReadData(0x21)==(motor_debug.motor5[0]?motor_debug.motor5[1]:(-1)*motor_debug.motor5[1]))
+..\Core\Src\mytask.c(953): warning:  #177-D: variable "t"  was declared but never referenced
+  	static uint32_t t;
+..\Core\Src\mytask.c: 26 warnings, 0 errors
+linking...
+Program Size: Code=25492 RO-data=496 RW-data=300 ZI-data=20884  
+FromELF: creating hex file...
+"Roller_Car\Roller_Car.axf" - 0 Error(s), 26 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Roller_Car_2.0
+  D:\app\KeilC51\MDK\ARM\CMSIS-Compiler\2.1.0\CMSIS\Core\Include
+  D:\app\KeilC51\MDK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

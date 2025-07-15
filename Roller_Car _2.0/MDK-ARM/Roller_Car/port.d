@@ -1,0 +1,12 @@
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+roller_car\port.o: D:\app\KeilC51\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+roller_car\port.o: D:\app\KeilC51\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+roller_car\port.o: ../Core/Inc/FreeRTOSConfig.h
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+roller_car\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
